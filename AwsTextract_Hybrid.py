@@ -6,6 +6,7 @@ from pdf2image import convert_from_path
 import boto3
 
 # Initialize the Textract client
+# Initialize the Textract client
 textract_client = boto3.client('textract', region_name='ap-south-1')  # Change to your AWS region
 
 
